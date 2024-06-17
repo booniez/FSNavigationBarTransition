@@ -13,6 +13,12 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		797126AA2C1FE4CD00A7CA1C /* DemoConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797126A12C1FE4CD00A7CA1C /* DemoConfigModel.swift */; };
+		797126AB2C1FE4CD00A7CA1C /* DemoConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797126A22C1FE4CD00A7CA1C /* DemoConfigureViewController.swift */; };
+		797126AC2C1FE4CD00A7CA1C /* DemoConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797126A32C1FE4CD00A7CA1C /* DemoConfigViewModel.swift */; };
+		797126AD2C1FE4CD00A7CA1C /* GradientDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797126A52C1FE4CD00A7CA1C /* GradientDemoViewController.swift */; };
+		797126AE2C1FE4CD00A7CA1C /* DemoContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797126A72C1FE4CD00A7CA1C /* DemoContainerViewController.swift */; };
+		797126AF2C1FE4CD00A7CA1C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797126A82C1FE4CD00A7CA1C /* DemoViewController.swift */; };
 		C3F052CB51CD49C8665E2BC8 /* Pods_FSNavigationBarTransition_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42E2C0C5D6A819B6EC51614 /* Pods_FSNavigationBarTransition_Example.framework */; };
 		FB4991083A3D19DE97367F48 /* Pods_FSNavigationBarTransition_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E15A78D5678E96B07ADA24 /* Pods_FSNavigationBarTransition_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -28,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15FE9BF5C4FF6E220539361C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		15FE9BF5C4FF6E220539361C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A5848ACBDF807A857248B28 /* Pods-FSNavigationBarTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNavigationBarTransition_Tests.release.xcconfig"; path = "Target Support Files/Pods-FSNavigationBarTransition_Tests/Pods-FSNavigationBarTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		32823645C7E144DA8A7CDEBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		32823645C7E144DA8A7CDEBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4284E5E73BB0DE4899B56EC8 /* Pods-FSNavigationBarTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNavigationBarTransition_Example.release.xcconfig"; path = "Target Support Files/Pods-FSNavigationBarTransition_Example/Pods-FSNavigationBarTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FSNavigationBarTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSNavigationBarTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +48,14 @@
 		607FACE51AFB9204008FA782 /* FSNavigationBarTransition_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSNavigationBarTransition_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		797126A12C1FE4CD00A7CA1C /* DemoConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConfigModel.swift; sourceTree = "<group>"; };
+		797126A22C1FE4CD00A7CA1C /* DemoConfigureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConfigureViewController.swift; sourceTree = "<group>"; };
+		797126A32C1FE4CD00A7CA1C /* DemoConfigViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConfigViewModel.swift; sourceTree = "<group>"; };
+		797126A52C1FE4CD00A7CA1C /* GradientDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDemoViewController.swift; sourceTree = "<group>"; };
+		797126A72C1FE4CD00A7CA1C /* DemoContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoContainerViewController.swift; sourceTree = "<group>"; };
+		797126A82C1FE4CD00A7CA1C /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		A4E15A78D5678E96B07ADA24 /* Pods_FSNavigationBarTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSNavigationBarTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBE73AB5188DA3464C92C44 /* FSNavigationBarTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FSNavigationBarTransition.podspec; path = ../FSNavigationBarTransition.podspec; sourceTree = "<group>"; };
+		ADBE73AB5188DA3464C92C44 /* FSNavigationBarTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FSNavigationBarTransition.podspec; path = ../FSNavigationBarTransition.podspec; sourceTree = "<group>"; };
 		B8A5DEAB1BA34AEF362F09C0 /* Pods-FSNavigationBarTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNavigationBarTransition_Example.debug.xcconfig"; path = "Target Support Files/Pods-FSNavigationBarTransition_Example/Pods-FSNavigationBarTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C42E2C0C5D6A819B6EC51614 /* Pods_FSNavigationBarTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSNavigationBarTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF87E4F3C0B10229D81D214C /* Pods-FSNavigationBarTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNavigationBarTransition_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FSNavigationBarTransition_Tests/Pods-FSNavigationBarTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +89,6 @@
 				DF87E4F3C0B10229D81D214C /* Pods-FSNavigationBarTransition_Tests.debug.xcconfig */,
 				2A5848ACBDF807A857248B28 /* Pods-FSNavigationBarTransition_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,7 @@
 		607FACD21AFB9204008FA782 /* Example for FSNavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
+				797126A92C1FE4CD00A7CA1C /* Demo */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -149,6 +161,35 @@
 				15FE9BF5C4FF6E220539361C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		797126A42C1FE4CD00A7CA1C /* DemoConfig */ = {
+			isa = PBXGroup;
+			children = (
+				797126A12C1FE4CD00A7CA1C /* DemoConfigModel.swift */,
+				797126A22C1FE4CD00A7CA1C /* DemoConfigureViewController.swift */,
+				797126A32C1FE4CD00A7CA1C /* DemoConfigViewModel.swift */,
+			);
+			path = DemoConfig;
+			sourceTree = "<group>";
+		};
+		797126A62C1FE4CD00A7CA1C /* GradientDemo */ = {
+			isa = PBXGroup;
+			children = (
+				797126A52C1FE4CD00A7CA1C /* GradientDemoViewController.swift */,
+			);
+			path = GradientDemo;
+			sourceTree = "<group>";
+		};
+		797126A92C1FE4CD00A7CA1C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				797126A42C1FE4CD00A7CA1C /* DemoConfig */,
+				797126A62C1FE4CD00A7CA1C /* GradientDemo */,
+				797126A72C1FE4CD00A7CA1C /* DemoContainerViewController.swift */,
+				797126A82C1FE4CD00A7CA1C /* DemoViewController.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		8355737C8002A3574B434248 /* Frameworks */ = {
@@ -227,6 +268,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,10 +356,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FSNavigationBarTransition_Example/Pods-FSNavigationBarTransition_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FSNavigationBarTransition/FSNavigationBarTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSNavigationBarTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,7 +380,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				797126AE2C1FE4CD00A7CA1C /* DemoContainerViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				797126AD2C1FE4CD00A7CA1C /* GradientDemoViewController.swift in Sources */,
+				797126AB2C1FE4CD00A7CA1C /* DemoConfigureViewController.swift in Sources */,
+				797126AA2C1FE4CD00A7CA1C /* DemoConfigModel.swift in Sources */,
+				797126AC2C1FE4CD00A7CA1C /* DemoConfigViewModel.swift in Sources */,
+				797126AF2C1FE4CD00A7CA1C /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

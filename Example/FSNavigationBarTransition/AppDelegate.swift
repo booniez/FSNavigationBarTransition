@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FSNavigationBarTransition
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let frame = UIScreen.main.bounds
+        window = UIWindow.init(frame: frame)
+        
+        let root = DemoViewController()
+        let nav = FSNavigationController(rootViewController: root)
+//        let nav = TestNavViewController(rootViewController: root)
+        nav.view.backgroundColor = .white
+        
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
