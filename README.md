@@ -7,7 +7,8 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+这只是一个基础的重构版本 0.0.1，还存在未解决的 bug，不建议直接使用。
+如有兴趣可查看 issues 提交 pr
 
 ## Requirements
 
