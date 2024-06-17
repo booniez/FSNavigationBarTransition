@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FSNavigationBarTransition_Example' do
+  pod 'FSNavigationBarTransition', :path => '../'
+
+  target 'FSNavigationBarTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
